@@ -1,7 +1,7 @@
 #!/bin/sh
 
-#Author: Rahul Dey
-#GitHub: https://github.com/RahulDey12
+# Author: Rahul Dey
+# GitHub: https://github.com/RahulDey12
 
 if [ "$(id -u)" -ne 0 ]; then
         echo 'This script must be run by root' >&2
