@@ -41,7 +41,6 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 #Moving Composer From Current Path
 mv $(pwd)/composer.phar /usr/bin/composer.phar
-alias composer='composer.phar'
 
 echo "PhpMyadmin is Installing..."
 apt install phpmyadmin -y
