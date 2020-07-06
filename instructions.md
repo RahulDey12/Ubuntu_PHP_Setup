@@ -37,6 +37,6 @@ mysql> GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
 mysql> FLUSH PRIVILEGES;
 mysql> exit
 
-ln -s /usr/share/phpmyadmin /mnt/c/server/www/phpmyadmin
+$ ln -s /usr/share/phpmyadmin /mnt/c/server/www/phpmyadmin
 
 ```
