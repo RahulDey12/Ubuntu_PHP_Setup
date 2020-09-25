@@ -10,9 +10,10 @@ fi
 
 echo "Apache2 & Mysql is Installing..."
 apt install apache2 mysql-server -y
+sudo a2enmod rewrite
 
 echo "Starting Apache & Mysql"
-service apache2 start
+service apache2 restart
 service mysql start
 
 echo "Initializing PHP Installation"
